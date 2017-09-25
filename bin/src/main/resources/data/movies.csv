@@ -1,0 +1,20 @@
+﻿ID;Title;ReleaseDate;PriceCategory;AgeRating;Rented
+100;Shining;1977-06-05;New Release;18;FALSE
+101;Lord of the Rings;2001-12-19;Children;6;TRUE
+102;Matrix;1999-03-11;Regular;12;FALSE
+103;Matrix Reloaded;1999-01-01;Regular;6;FALSE
+104;Eragon;2004-08-04;Regular;14;FALSE
+105;Batman;1999-05-12;New Release;6;FALSE
+106;Live Fee or Die Hard;2007-06-27;New Release;16;FALSE
+107;Cloverfield;2008-01-18;New Release;18;FALSE
+108;Juno;2007-12-25;Children;0;FALSE
+109;Sweeney Todd;2006-01-03;New Release;18;FALSE
+110;There Will Be Blood;2007-12-21;New Release;16;FALSE
+111;No Country for Old Men;2007-11-21;New Release;12;FALSE
+112;Rambo;2008-01-25;New Release;14;FALSE
+113;Brokeback Mountain;2005-12-26;New Release;16;FALSE
+114;27 Dresses;2008-01-18;Children;6;FALSE
+115;Meet the Spartans;2008-01-25;Regular;14;FALSE
+116;The Bucket List;2008-01-11;Regular;12;FALSE
+117;Untraceable;2008-01-25;Regular;14;FALSE
+118;The Eye;2008-02-01;Regular;12;FALSE

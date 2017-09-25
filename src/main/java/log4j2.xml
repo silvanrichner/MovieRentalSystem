@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+  <Appenders>
+    <Console name="console" target="SYSTEM_ERR">
+      <PatternLayout pattern="%d{HH:mm:ss} %-5p %5L [%c] - &lt;%m&gt;%n" />
+    </Console>
+
+    <File name="file" fileName="log/log.txt" bufferedIO="false">
+      <PatternLayout pattern="%d{dd. MMM. yy, HH:mm:ss} %-5p &quot;%m&quot;%n" />
+    </File>
+  </Appenders>
+
+  <Loggers>
+    <!-- Set log level to off to avoid loggings on ci server during testing -->
+    <!-- TODO: Better solution would be to provide different maven profiles -->
+    <Root level="off" additivity="false">
+      <AppenderRef ref="console" />
+      <AppenderRef ref="file" />
+    </Root>
+  </Loggers>
+</Configuration>

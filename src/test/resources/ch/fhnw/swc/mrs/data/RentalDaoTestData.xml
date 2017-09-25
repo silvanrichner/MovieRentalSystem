@@ -1,0 +1,43 @@
+<dataset>
+    <movies id="1" 
+    title="Titanic"
+    isrented="true" 
+    releasedate="1999-08-02"
+    pricecategory="Regular" 
+    agerating="12"/>
+    <movies id="2" 
+    title="Avatar"
+    isrented="true" 
+    releasedate="2005-09-17"
+    pricecategory="New Release" 
+    agerating="16"/>
+    <movies id="3" 
+    title="Casablanca"
+    isrented="false" 
+    releasedate="1942-03-28"
+    pricecategory="Children" 
+    agerating="0"/>
+    
+    <clients id="13"
+    firstname="Donald"
+    name="Duck"
+    birthdate="1968-01-13"/>
+    <clients id="42" 
+    firstname="Micky"
+    name="Mouse"
+    birthdate="1935-11-03"/>
+    <clients id="99"
+    firstname="Dagobert"
+    name="Duck"
+    birthdate="1945-09-09" />
+    
+    <rentals id="5"
+    movieid="1"
+    clientid="13"
+    rentaldate="2017-08-31"/>
+    <rentals id="8"
+    movieid="2"
+    clientid="99"
+    rentaldate="2017-08-30"/>
+    
+</dataset>

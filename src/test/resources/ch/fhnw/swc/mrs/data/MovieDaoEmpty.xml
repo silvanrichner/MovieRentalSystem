@@ -1,0 +1,10 @@
+<dataset>
+	<table name="movies">
+		<column>id</column>
+		<column>title</column>
+		<column>isrented</column>
+		<column>releasedate</column>
+		<column>pricecategory</column>
+		<column>agerating</column>
+	</table>
+</dataset>

@@ -1,0 +1,16 @@
+<dataset>
+    <clients id="13"
+    firstname="Donald"
+    name="Duck"
+    birthdate="2013-01-13"/>
+    
+    <clients id="42" 
+    firstname="Micky"
+    name="Mouse"
+    birthdate="1935-11-03"/>
+    
+    <clients id="9999999"
+    firstname="Dagobert"
+    name="Duck"
+    birthdate="1945-09-09" />
+</dataset>

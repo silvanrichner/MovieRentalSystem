@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="571.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.fhnw.swc.mrs.view.UserController">
+	<bottom>
+		<VBox alignment="BOTTOM_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+			<children>
+				<GridPane fx:id="grid" disable="true" hgap="5.0">
+					<columnConstraints>
+						<ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="270.0" minWidth="10.0" prefWidth="106.0" />
+						<ColumnConstraints hgrow="SOMETIMES" maxWidth="460.0" minWidth="10.0" prefWidth="444.0" />
+					</columnConstraints>
+					<rowConstraints>
+						<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+						<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+					</rowConstraints>
+					<children>
+						<Label text="Surname" />
+						<Label text="First Name" GridPane.rowIndex="1" />
+						<TextField fx:id="surnameField" promptText="Enter family name" GridPane.columnIndex="1" />
+						<TextField fx:id="firstNameField" promptText="Enter first name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="Date of Birth" GridPane.rowIndex="2" />
+                  <DatePicker fx:id="birthdatePicker" promptText="Enter date of birth" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+					</children>
+					<padding>
+						<Insets left="5.0" right="5.0" />
+					</padding>
+				</GridPane>
+				<ButtonBar prefHeight="40.0" prefWidth="200.0">
+					<padding>
+						<Insets right="5.0" />
+					</padding>
+					<buttons>
+						<Button fx:id="cancelButton" disable="true" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+						<Button fx:id="newButton" mnemonicParsing="false" onAction="#handleNew" text="New..." />
+						<Button fx:id="editButton" disable="true" mnemonicParsing="false" onAction="#handleEdit" text="Edit..." />
+						<Button fx:id="deleteButton" disable="true" mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
+						<Button fx:id="saveButton" disable="true" mnemonicParsing="false" onAction="#handleSave" text="Save" />
+					</buttons>
+				</ButtonBar>
+			</children>
+		</VBox>
+	</bottom>
+	<center>
+		<TableView fx:id="userTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+			<columns>
+				<TableColumn fx:id="idColumn" prefWidth="75.0" text="User ID" />
+				<TableColumn fx:id="surnameColumn" prefWidth="75.0" text="Surname" />
+				<TableColumn fx:id="firstNameColumn" prefWidth="75.0" text="First Name" />
+            <TableColumn fx:id="birthdateColumn" prefWidth="75.0" text="Date of Birth" />
+			</columns>
+			<columnResizePolicy>
+				<TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+			</columnResizePolicy>
+		</TableView>
+	</center>
+</BorderPane>

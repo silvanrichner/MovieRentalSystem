@@ -1,0 +1,14 @@
+<dataset>
+    <movies id="1" 
+    title="Titanic"
+    isrented="false" 
+    releasedate="1999-08-02"
+    pricecategory="Regular" 
+    agerating="12"/>
+    <movies id="3" 
+    title="Casablanca"
+    isrented="false" 
+    releasedate="1942-03-28"
+    pricecategory="Children" 
+    agerating="0"/>
+</dataset>
