@@ -18,6 +18,14 @@
 		<connection>scm:git:https://github.com/silvanrichner/MovieRentalSystem.git</connection>
 		<developerConnection>scm:git:https://github.com/silvanrichner/MovieRentalSystem.git</developerConnection>
 	</scm>
+    <distributionManagement>
+        <!-- use the following if you're not using a snapshot version. -->
+        <repository>
+            <id>localSnap</id>
+            <name>MovieRentalSystem</name>
+            <url>https://github.com/silvanrichner/MovieRentalSystem/releases</url>
+        </repository>
+    </distributionManagement>
 
 	<build>
 
