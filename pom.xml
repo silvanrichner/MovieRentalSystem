@@ -14,6 +14,10 @@
 		<dbunit.version>2.5.4</dbunit.version>
 		<dependency.locations.enabled>false</dependency.locations.enabled>
 	</properties>
+	<scm>
+		<connection>scm:git:https://github.com/silvanrichner/MovieRentalSystem.git</connection>
+		<developerConnection>scm:git:https://github.com/silvanrichner/MovieRentalSystem.git</developerConnection>
+	</scm>
 
 	<build>
 
@@ -79,7 +83,7 @@
 							<encoding>UTF-8</encoding>
 							<consoleOutput>true</consoleOutput>
 							<failsOnError>true</failsOnError>
-							<linkXRef>false</linkXRef>
+							<!-- <linkXRef>false</linkXRef> -->
 							<suppressionsLocation>src/main/config/suppressions.xml</suppressionsLocation>
 						</configuration>
 						<goals>
