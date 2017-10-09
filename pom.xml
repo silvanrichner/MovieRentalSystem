@@ -17,6 +17,8 @@
 	<scm>
 		<connection>scm:git:https://github.com/silvanrichner/MovieRentalSystem.git</connection>
 		<developerConnection>scm:git:https://github.com/silvanrichner/MovieRentalSystem.git</developerConnection>
+        <url>https://github.com/silvanrichner/MovieRentalSystem</url>
+        <tag>HEAD</tag>
 	</scm>
     <distributionManagement>
         <!-- use the following if you're not using a snapshot version. -->
@@ -175,7 +177,7 @@
 										<limit>
 											<counter>INSTRUCTION</counter>
 											<value>COVEREDRATIO</value>
-											<minimum>0.60</minimum>
+											<minimum>0.20</minimum>
 										</limit>
 									</limits>
 								</rule>
