@@ -29,7 +29,7 @@ public class Rental {
                 initialized = true;
                 super.set(anId);
             }
-        }
+    }
     };
     private final ObjectProperty<Movie> movie = new SimpleObjectProperty<Movie>() {
         @Override

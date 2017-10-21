@@ -1,6 +1,7 @@
 package ch.fhnw.swc.mrs.model;
 
 import java.util.List;
+import ch.fhnw.swc.mrs.model.Rental;
 
 public class Bill extends Statement {
 
