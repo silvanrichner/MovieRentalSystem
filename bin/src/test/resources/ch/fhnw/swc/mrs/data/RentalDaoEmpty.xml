@@ -1,8 +1,0 @@
-<dataset>
-    <table name="rentals">
-        <column>id</column>
-        <column>movieid</column>
-        <column>clientid</column>
-        <column>rentaldate</column>
-    </table>
-</dataset>
